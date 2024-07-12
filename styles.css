@@ -1,31 +1,181 @@
-            main {
-                background-color: rgb(127, 170, 228);
-            }
-            
-            h1 {
-                text-align: center;
-                color: aliceblue;
-            }
-            
-            .semiConteiner {
-                display: flex;
-                justify-content: center;
-            }
-            
-            .semiConteiner form {
-                margin: 15px 115px;
-            }
-            
-            input.text {
-                width: 200px;
-                height: 15px;
-                padding: 5px 10px 5px 10px;
-                border: 1px solid #999;
-                font-size: 16px;
-                font-family: Tahoma;
-            }
-            
-            #name {
-                margin-left: 360px;
-                width: 100%;
-            }
+          * {
+              padding: 0;
+              font-family: 'Courier', monospace;
+              font-size: 20px;
+              cursor: pointer;
+          }
+
+          body {
+              width: 100%;
+              height: 100%;
+              position: absolute;
+              top: 0;
+              left: 0;
+              overflow: auto;
+              padding: 0;
+          }
+
+          main {
+              background-color: rgb(127, 170, 228);
+              width: 1050px;
+              height: 730px;
+              position: absolute;
+              top: 0;
+              right: 0;
+              bottom: 0;
+              left: 0;
+              margin: auto;
+          }
+
+          #main h1 {
+
+              font-size: 45px;
+              text-align: center;
+              color: aliceblue;
+
+          }
+
+          #conteinerCuDouaSemiContainere {
+
+              position: absolute;
+              width: 800px;
+              height: 350px;
+              justify-content: center;
+
+          }
+
+          .semiConteiner {
+              position: absolute;
+              display: flex;
+              justify-content: center;
+              padding-left: 60px;
+          }
+
+          .semiConteiner form {
+              position: relative;
+              padding: 25px;
+          }
+
+          .semiConteiner2 {
+              position: absolute;
+              margin-top: 110px;
+              padding-left: 85px;
+              padding-top: 40px;
+          }
+
+          #name {
+              width: 410px;
+              height: 30px;
+          }
+
+
+
+          #addressName {
+              width: 870px;
+              height: 29px;
+          }
+
+          #nameSubject {
+              width: 870px;
+              height: 130px;
+          }
+
+          #textarea {
+              width: 870px;
+              height: 159px;
+              top: 0;
+          }
+
+          #textarea[type=text] {
+              margin-top: 100px;
+          }
+
+
+          .selector {
+              width: 350px;
+          }
+
+          #selectFiled {
+
+              margin-bottom: 30px;
+              box-sizing: border-box;
+              background: rgb(255, 255, 255, 0.7);
+              border-radius: 6PX;
+              display: flex;
+              align-items: center;
+              justify-content: space-between;
+              cursor: pointer;
+          }
+
+
+          .menu {
+              display: flex;
+          }
+
+          .menu li {
+              width: 100%;
+              list-style: none;
+              background: rgb(255, 252, 252);
+              position: relative;
+          }
+
+          .menu a {
+              color: black;
+              text-decoration: none;
+              display: block;
+              padding: 0 10px;
+              height: 40px;
+              line-height: 40px;
+              transition: all .5s;
+              justify-content: space-between;
+          }
+
+          .menu a:hover {
+              background: rgb(87, 182, 214);
+          }
+
+          .menu ul {
+              position: absolute;
+              left: 0;
+              top: 100%;
+              display: none;
+              padding: 0;
+
+          }
+
+          .menu li:hover ul {
+              display: block;
+             
+          }
+          input:hover{
+             background: rgb(87, 182, 214);
+          }
+
+          #Contries {
+              color: rgb(0, 0, 0);
+              position: absolute;
+              bottom: 405px;
+          }
+
+          #Subject {
+              width: 100%;
+              height: 190px;
+          }
+
+          button {
+              padding: absolute;
+              width: 100%;
+              height: 30px;
+              margin-top: 17px;
+              padding: 25px;
+              background: rgb(255, 252, 252);
+              font-size: 25px;
+              display: flex;
+              border-radius: 5px;
+              align-items: center;
+              justify-content: center;
+
+          }
+          button:hover{
+            background: rgb(87, 182, 214);
+          }

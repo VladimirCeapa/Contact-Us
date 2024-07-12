@@ -4,55 +4,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" />
     <link rel="stylesheet" href="styles.css">
     <title>form</title>
 </head>
 
 <body>
     <main id="main">
-        <h1> Contact Us</h1>
-
+       
         <section id="enteriForm">
+           
+ <h1> Contact Us</h1>  
             <div id="conteinerCuDouaSemiContainere">
+
                 <section id="container">
+                   
                     <div class="semiConteiner">
 
-                        <form id="name">
+                        <form class="form">
                             <label for="name">First name</label><br>
-                            <input type="text" id="fname" name="fname" placeholder=" Your name"><br>
+                            <input id="name" type="text" id="fname" name="fname" placeholder=" Your name"><br>
                             <label for="email">Email</label><br>
-                            <input type="text" id="lname" name="lname" placeholder=" Your email">
+                            <input id="name" type="text" name="lname" placeholder=" Your email">
                         </form>
-                        <form id="name">
+                        <form>
                             <label for="fname">Last name</label><br>
-                            <input type="text" id="fname" name="fname" placeholder=" Your last name"><br>
+                            <input id="name" type="text" id="fname" name="fname" placeholder=" Your last name"><br>
                             <label for="lname">Phone number</label><br>
-                            <input type="text" id="lname" name="lname" placeholder=" Your phone number">
+                            <input id="name" type="text" name="lname" placeholder=" Your phone number">
                         </form>
                     </div>
-                    <form id="country">
-                        <label for="country">Country</label><br>
-                        <input type="text" id="fname" name="fname"><br>
-                    </form>
-                    <form id="Address">
-                        <label for="country">Address</label><br>
-                        <input type="text" id="fname" name="fname" placeholder=" Your Address"><br>
-                    </form>
-                    <form id="Subject">
+                    <div class="semiConteiner2">
+                        <span id="Contries">Contries</span>
+                        <ul class="menu">
+                            <li><a href="">Contries<span class="caretDown"></span></a>
+                                <ul>
+                                    <li><a href=""> <span class="fi fi-md"> </span> Moldova</a></li>
+                                    <li><a href=""> <span class="fi fi-cz"> </span>Czech</a></li>
+                                    <li><a href=""><span class="fi fi-gb"> </span>Great Breatn</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+
+
+
+                        <form id=" address ">
+                            <label for="country ">Address</label><br>
+                            <input id="addressName" type="text " name="fname " placeholder=" Your Address "><br>
+                        </form>
                         <label for="country">Subject</label><br>
-                        <input type="text" id="fname" name="fname" placeholder=" Write something.."><br>
-                    </form>
-
-
-                    <!-- <div id="country">
-                    <span class="fi fi-au"></span>
-                    <span class="fi fi-de"></span>
-                    <span class="fi fi-gr"></span>
-                    <span class="fi fi-ge"></span>
-                </div> -->
+                        <textarea id="Subject">Write something...</textarea>
+                        <br>
+<button > Send </button>  
+                    </div>
+                
                 </section>
+            </div>
+
+
+
         </section>
-    </main>
+ </main>
+
+     
 
 </body>
 
